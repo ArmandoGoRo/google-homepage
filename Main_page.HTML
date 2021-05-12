@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 
 <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+    }
     .Header-top-right {
         position: absolute;
         right: 0px;
@@ -15,9 +23,6 @@
         position: fixed;
         top: 200px;
         left: 560px;
-    }
-    .search-input {
-        
     }
     .bottom-left {
         position: absolute;
@@ -37,9 +42,13 @@
         <meta charset="utf-8">
         <title> My Google Project page</title>
     </head>
-    <header class="Header-top-right">Gmail Images 
-        <img class="apps" src="/home/armando/Downloads/round_apps_black_24dp.png" alt="Apps">
-        <img class="user-image" src="/home/armando/Downloads/round_account_circle_black_24dp.png" alt="User image">
+    <header class="Header-top-right">
+        <ul>
+            <li><a href=#Gmail>Gmail</a></li>
+            <li><a href=#Images>Images</a></li>
+            <li><a href=#Apps><img src="/home/armando/Downloads/round_apps_black_24dp.png"></a></li>
+            <li><a href=#Avatar><img src="/home/armando/Downloads/round_account_circle_black_24dp.png"></a></li>
+        </ul>
     </header>
     <body>
         <img class="Google-image" src="/home/armando/Downloads/googlelogo_color_272x92dp.png" alt="Google logo"> 
