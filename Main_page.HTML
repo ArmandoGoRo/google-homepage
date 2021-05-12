@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
+
+<style>
+    .Header-top-right {
+        Position: right 10px;
+    }
+    .Google-image {
+        Position: center;
+    }
+</style>
+
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title> My Google Project page</title>
     </head>
+    <header class="Header-top-right">Gmail Images</header>
     <body>
-        <img src="/home/armando/Downloads/googlelogo_color_272x92dp.png"> 
+        <img class="Google-image" src="/home/armando/Downloads/googlelogo_color_272x92dp.png" alt="Google logo"> 
+        <div class="Search-bar">
+            <input class= "input-bar" type="text" alt="Input bar"> <img class="Search-icon" src="/home/armando/Downloads/outline_search_black_24dp.png" alt="Search icon">
+            <div class="Input-buttons">
+                <button type="submit">Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>
+        </div>
     </body>
-    <footer>Advertising</footer>
-    <footer>Bussiness</footer>
-    <footer>How Search works</footer>
+    <footer class="Bottom-left">Advertising Business How Search works </footer>
+    <footer class="Bottom-right">Privacy Source Settings</footer>
 </html>
