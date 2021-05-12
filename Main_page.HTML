@@ -7,20 +7,28 @@
         top: 0px;
     }
     .Google-image {
-        display: block;
-        margin-top: auto;
-        margin-bottom: auto;
-        top: 100em;
+        position: fixed;
+        top: 100px;
+        left: 560px;
+    }
+    .search-bar {
+        position: fixed;
+        top: 200px;
+        left: 560px;
     }
     .search-input {
-        position: relative;
-        background: transparent;
+        
     }
-    .Search-icon {
+    .bottom-left {
         position: absolute;
-        top: 0px;
+        bottom: 0px;
         left: 0px;
-        }
+    }
+    .bottom-right{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
         
         </style>
 
@@ -30,8 +38,8 @@
         <title> My Google Project page</title>
     </head>
     <header class="Header-top-right">Gmail Images 
-        <img src="/home/armando/Downloads/round_apps_black_24dp.png" alt="Apps">
-        <img src="/home/armando/Downloads/round_account_circle_black_24dp.png" alt="User image">
+        <img class="apps" src="/home/armando/Downloads/round_apps_black_24dp.png" alt="Apps">
+        <img class="user-image" src="/home/armando/Downloads/round_account_circle_black_24dp.png" alt="User image">
     </header>
     <body>
         <img class="Google-image" src="/home/armando/Downloads/googlelogo_color_272x92dp.png" alt="Google logo"> 
@@ -44,6 +52,6 @@
             </div>
         </div>
     </body>
-    <footer class="Bottom-left">Advertising Business How Search works </footer>
-    <footer class="Bottom-right">Privacy Source Settings</footer>
+    <footer class="bottom-left">Advertising Business How Search works </footer>
+    <footer class="bottom-right">Privacy Source Settings</footer>
 </html>
