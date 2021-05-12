@@ -1,1 +1,2 @@
 My first project will consist of making a copy of the Google homepage.
+Finished the project today. Pretty happy of how it turned out, I had to use a lot of stuff I wasn't familiar with: Horizontal Navbars, padding, basic HTML (first time using it, so I'm content with the result). Padding and margin are still a little hard for me to comprehend, and I couldn't figure out how to make the search image go inside my search bar, but I learned how to put images in my nav bar, and to reposition them using "position", so I would call this project an overall success.
